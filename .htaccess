@@ -1,0 +1,15 @@
+#comentario
+
+RewriteEngine on
+
+RewriteRule ^Iniciar-Sesion$ controllers/iniciosesion.php
+RewriteRule ^Menu$ /controllers/Home.php
+RewriteRule ^Alta-Usuarios$ controllers/altausuarios.php
+RewriteRule ^Mi-Carrito$ controllers/Micarrito.php
+RewriteRule ^Pagar$ controllers/Pagar.php
+RewriteRule ^Mi-Perfil$ controllers/PantallaMiPerfil.php
+RewriteRule ^Mis-Compras$ controllers/PantallaMisCompras.php
+RewriteRule ^Mis-Ventas$ controllers/PantallaMisVentas.php
+RewriteRule ^Productos$ controllers/PantallaProductos.php
+RewriteRule ^Vender$ controllers/PantallaVentas.php
+RewriteRule ^Cerrar-Sesion$ controllers/CerrarSesion.php

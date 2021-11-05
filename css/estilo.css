@@ -1,0 +1,113 @@
+body{
+	background-color: #3A3A3A;
+}
+h1{
+  text-align:center;
+}
+
+#form{
+	width: 100%;
+	/*overflow: hidden;*/
+	margin: auto;
+	max-width: 200px;
+	min-width: 100px;
+}
+
+.boton{
+	 text-decoration: none;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+.boton:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+  .texto{
+  	border: 1px dotted #999;
+  	border-radius: 0;
+  	-webkit-appearance: none;
+
+  }
+
+#error{
+    color: green;
+    font-family: monospace;
+    border: 1px dashed blue;
+    padding:  4px;
+    display: none;
+    }
+
+
+#navi{
+  position: relative;
+  height: 70px;
+  width: 100%;
+  margin: auto;
+  left: 200px;
+}
+
+#menu{
+  height: 50px;
+}
+
+ #menu li{
+  width: 150px;
+  background-color: black;
+  color: white;
+  float: left;
+  margin:auto; 
+  list-style: none;
+  text-align:center;
+  border:1px solid black; 
+}
+
+#menu a{
+  display:block;
+  color:white;
+  padding:5px;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+#menu a:hover{ background-color: white; color:black;}
+#menu a:active{ background-color: green; color:white;}
+
+ul ul {
+  display:none;
+  position:absolute;
+  width:150px;
+  margin:0; padding:0px;
+  border:none;
+  overflow: hidden;
+  background-color: #000;
+}
+
+#submenu2{
+  width: 450px; 
+}
+
+#menu #submenu2 li{
+  float: left;
+  height: 51px;
+  width: 51px;
+}
+
+#submenu1 li, #submenu2 li, #submenu3 li, #submenu4 li, #submenu5 li{
+  float:none;
+  margin:0; padding:0px;
+}
+
+#menu ul a:hover{ background-color: white; color:black;}
+#menu ul a:active{ background-color: green; color:white;}
+
+li:hover ul {
+  display:block;
+}
